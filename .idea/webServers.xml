@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ffef2f85-c0ce-49a6-91b0-0497a53a4500" name="local" url="http://kanban.portfolio.local/">
+        <fileTransfer rootFolder="/home/dev/webpages/kanban" accessType="SFTP" host="10.0.0.3" port="50022" sshConfigId="f85d2de1-879b-46fd-8877-dfa4d699e02a" sshConfig="dev@10.0.0.3:50022 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseRsync="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
